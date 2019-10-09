@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Simple Surgery Expansion</name>
+	<author>82ab53e4</author>
+    <!--<url></url>-->
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>A minimalistic expansion of prostetics and surgery, aimed to fill gaps in vanilla game without adding much.</description>
+</ModMetaData>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Human"]/recipes</xpath>
+		<value>
+			<li>InstallWoodenEye</li>
+			<li>InstallWoodenEar</li>
+			<li>ReconstructNose</li>
+			<li>ReconstructRibcage</li>
+			<li>ReconstructPelvis</li>
+			<li>ReconstructClavicle</li>
+			<li>ReconstructHumerus</li>
+			<li>ReconstructRadius</li>
+			<li>ReconstructFemur</li>
+			<li>ReconstructTibia</li>
+			<li>InstallAIPersonaCore</li>
+		</value>
+	</Operation>
+	
+	<!-- Colors - wooden-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "WoodenFoot"]</xpath>
+		<value>
+			<defaultLabelColor>(0.65, 0.38, 0.26)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "PegLeg"]</xpath>
+		<value>
+			<defaultLabelColor>(0.65, 0.38, 0.26)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<!-- Colors - Bionic-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicEye"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicArm"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicLeg"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicSpine"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicHeart"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicStomach"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "BionicEar"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "PowerClaw"]</xpath>
+		<value>
+			<defaultLabelColor>(0.22, 0.75, 0.12)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<!-- Colors - Archotech-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "ArchotechEye"]</xpath>
+		<value>
+			<defaultLabelColor>(0.55, 0.59, 0.48)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "ArchotechArm"]</xpath>
+		<value>
+			<defaultLabelColor>(0.55, 0.59, 0.48)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffDef[defName = "ArchotechLeg"]</xpath>
+		<value>
+			<defaultLabelColor>(0.55, 0.59, 0.48)</defaultLabelColor>
+		</value>
+	</Operation>
+		
+</Patch>

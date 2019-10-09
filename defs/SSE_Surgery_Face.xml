@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallWoodenEye</defName>
+		<label>install wooden eye</label>
+		<description>Install a wooden eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden eye.</jobString>
+		<workAmount>1000</workAmount>
+		<surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+			<appliedOnFixedBodyParts>
+				<li>Eye</li>
+			</appliedOnFixedBodyParts>
+		<addsHediff>WoodenEye</addsHediff>
+	</RecipeDef>
+  
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallWoodenEar</defName>
+		<label>install wooden ear</label>
+		<description>Install a wooden ear.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden ear.</jobString>
+		<workAmount>1000</workAmount>
+		<surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+			<appliedOnFixedBodyParts>
+				<li>Ear</li>
+			</appliedOnFixedBodyParts>
+		<addsHediff>WoodenEar</addsHediff>
+	</RecipeDef>
+  
+    <HediffDef ParentName="AddedBodyPartBase">
+		<defName>WoodenEye</defName>
+		<label>wooden eye</label>
+		<labelNoun>a wooden eye</labelNoun>
+		<defaultLabelColor>(0.65, 0.38, 0.26)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.0</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+	</HediffDef>	
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>WoodenEar</defName>
+		<label>wooden ear</label>
+		<labelNoun>a wooden ear</labelNoun>
+		<defaultLabelColor>(0.65, 0.38, 0.26)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.0</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+	</HediffDef>
+	
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructNose</defName>
+		<label>reconstruct nose</label>
+		<description>Reconstruct a nose.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing nose.</jobString>
+		<workAmount>1500</workAmount>
+		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+</Defs>

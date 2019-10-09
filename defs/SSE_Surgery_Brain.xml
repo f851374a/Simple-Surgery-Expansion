@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallAIPersonaCore</defName>
+		<label>replace brain with AI persona core</label>
+		<description>Replace brain with AI persona core.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>replacing brain with AI persona core.</jobString>
+		<workAmount>8000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<deathOnFailedSurgeryChance>0.5</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+					<li>AIPersonaCore</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>MedicineHerbal</li>
+			</disallowedThingDefs>
+			<thingDefs>
+				<li>AIPersonaCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIPersonaCoreBrain</addsHediff>
+	</RecipeDef>
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AIPersonaCoreBrain</defName>
+		<label>AI persona core</label>
+		<labelNoun>AI persone core</labelNoun>
+		<defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+	</HediffDef>
+	
+</Defs>

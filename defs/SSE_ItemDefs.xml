@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>BoneReconstructionKit</defName>
+		<label>bone reconstruction kit</label>
+		<description>An universal kit that allows a surgeon to reconstruct various human bones, even if they are in really bad state. Is not appliable to spine.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+  
+</Defs>

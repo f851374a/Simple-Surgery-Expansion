@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructClavicle</defName>
+		<label>reconstruct clavicle</label>
+		<description>Reconstruct a clavicle.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing clavicle.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructHumerus</defName>
+		<label>reconstruct humerus</label>
+		<description>Reconstruct a humerus.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing humerus.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Humerus</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructRadius</defName>
+		<label>reconstruct radius</label>
+		<description>Reconstruct a radius.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing radius.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Radius</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructFemur</defName>
+		<label>reconstruct femur</label>
+		<description>Reconstruct a femur.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing femur.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Femur</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructTibia</defName>
+		<label>reconstruct tibia</label>
+		<description>Reconstruct a tibia.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing tibia.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tibia</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructPelvis</defName>
+		<label>reconstruct pelvis</label>
+		<description>Reconstruct a pelvis.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing pelvis.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>BoneReconstructionKit</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Pelvis</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>ReconstructRibcage</defName>
+		<label>reconstruct ribcage</label>
+		<description>Reconstruct a ribcage.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Reconstructing ribcage.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneReconstructionKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BoneReconstructionKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+</Defs>
